@@ -118,7 +118,7 @@ workload: 模型、dtype、输入/输出长度与并发配置
 - 虚拟内存、page fault、page cache、mmap 和 swap。
 - CPU cache、NUMA、上下文切换和 CPU affinity。
 - cgroups、namespace 与容器资源隔离。
-- 文件系统、块设备、网络文件系统和对象存储的差异。
+- 文件系统、块设备和本地存储 I/O。
 - `/proc`、systemd、权限、用户、日志和环境变量。
 
 重点工具：
@@ -133,6 +133,7 @@ workload: 模型、dtype、输入/输出长度与并发配置
 - TCP 连接、拥塞、重传、连接池和 Keep-Alive。
 - HTTP/1.1、HTTP/2、gRPC、SSE 与流式响应。
 - DNS、四层/七层负载均衡、反向代理和 TLS。
+- 网络文件系统、对象存储接口与远程存储访问。
 - 延迟、带宽、吞吐、并发和排队之间的关系。
 - 超时、重试、幂等、限流、熔断和背压。
 

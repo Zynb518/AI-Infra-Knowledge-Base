@@ -1,0 +1,148 @@
+---
+config:
+  layout: tidy-tree
+---
+mindmap
+  root((网络基础))
+    分层与数据封装
+      OSI 与 TCP/IP 模型
+      帧、包、段与消息
+      MTU 与分片
+      单播、广播与组播
+    链路层
+      Ethernet
+      MAC 地址
+      ARP 与 IPv6 ND
+      VLAN
+      网桥与交换机
+    网络层
+      IPv4 与 IPv6
+      子网与 CIDR
+      路由表与转发
+      ICMP
+      NAT
+    传输层
+      UDP
+        数据报语义
+        丢包、乱序与重复
+      TCP
+        建连与断连
+        可靠传输与滑动窗口
+        流量控制
+        拥塞控制
+        重传与 RTT
+        Keep-Alive 与连接池
+      QUIC 入门
+    应用层协议
+      DNS
+        递归与迭代查询
+        记录类型与缓存
+      HTTP
+        HTTP/1.1
+        HTTP/2
+        Keep-Alive
+        流式响应与 SSE
+      gRPC
+        Protobuf
+        Unary 与 Streaming
+      TLS
+        证书与信任链
+        握手与会话复用
+      网络存储访问
+        NFS
+        S3 与对象存储接口
+        远程存储延迟
+    Linux 网络实现
+      Socket 与文件描述符
+        Socket 生命周期
+        阻塞与非阻塞 I/O
+        accept 与连接队列
+        send 与 receive buffer
+      内核数据路径
+        网卡与驱动
+        中断、NAPI 与 softirq
+        sk_buff
+        qdisc
+      网络配置
+        iproute2
+        sysctl 网络参数
+        DNS 配置
+        防火墙与 nftables
+      网络隔离
+        Network namespace
+        veth pair
+        Linux bridge
+        容器端口与 NAT
+    服务通信与治理
+      负载均衡
+        四层负载均衡
+        七层负载均衡
+        反向代理
+      可靠性机制
+        超时
+        重试与退避
+        幂等
+        限流
+        熔断
+        背压
+      连接管理
+        长连接与短连接
+        连接池
+        连接耗尽
+        优雅关闭
+    网络性能
+      核心指标
+        延迟与 RTT
+        带宽与吞吐
+        PPS 与并发
+        丢包与重传
+      排队现象
+        Little 定律
+        队头阻塞
+        缓冲膨胀
+        尾延迟
+      性能因素
+        带宽时延积
+        序列化与拷贝
+        内核旁路概念
+        零拷贝概念
+    可观测性与排障
+      连通性与路径
+        ping
+        traceroute
+        mtr
+      配置与状态
+        ip
+        ss
+        dig
+        ethtool
+      流量与性能
+        curl
+        iperf3
+        tcpdump
+        Wireshark
+      内核与统计
+        nstat
+        tc
+        procfs 网络接口
+        eBPF 网络观测
+      排障闭环
+        定义症状
+        分层定位
+        抓包与指标取证
+        验证根因
+        修复与复盘
+    AI Infra 连接点
+      推理服务
+        HTTP、gRPC 与 SSE
+        TTFT 与流式传输
+        并发、排队与背压
+      分布式通信
+        RDMA 基础
+        RoCE 基础
+        GPUDirect RDMA 概念
+        NCCL 与 HCCL 的网络依赖
+      容器与集群
+        容器网络模型
+        Kubernetes 网络前置知识
+        服务发现与负载均衡

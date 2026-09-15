@@ -1,0 +1,136 @@
+---
+config:
+  layout: tidy-tree
+---
+mindmap
+  root((Linux 与操作系统))
+    基础使用
+      Shell 与终端
+        命令、管道与重定向
+        环境变量与退出码
+        Bash 脚本
+      用户与权限
+        用户、用户组
+        rwx、umask、ACL
+        sudo 与 capabilities
+      软件与服务
+        包管理
+        systemd
+        日志与 journald
+    文件与存储
+      文件系统抽象
+        inode 与目录项
+        文件描述符
+        VFS
+      I/O 路径
+        缓冲 I/O 与直接 I/O
+        page cache
+        mmap
+        同步、异步与 io_uring
+      存储设备
+        块设备
+        文件系统
+        IOPS、吞吐与延迟
+    进程与并发
+      进程生命周期
+        fork、exec、wait
+        状态与上下文切换
+        孤儿进程与僵尸进程
+      线程与调度
+        用户线程与内核线程
+        调度策略与优先级
+        CPU affinity
+      进程间通信
+        信号
+        管道
+        共享内存
+        消息队列与信号量
+      并发问题
+        竞态条件
+        锁与原子操作
+        死锁与饥饿
+    内存系统
+      虚拟内存
+        地址空间与页表
+        TLB
+        page fault
+      内存管理
+        匿名页与文件页
+        RSS、PSS、VSZ
+        swap
+        OOM Killer
+      硬件局部性
+        CPU Cache
+        NUMA
+        Huge Pages
+        内存带宽
+    CPU 与性能
+      CPU 架构
+        核心、线程与指令集
+        Cache 层级
+        SIMD
+      性能现象
+        CPU bound
+        memory bound
+        I/O bound
+        lock contention
+      性能方法
+        USE 方法
+        RED 方法
+        基准测试
+        火焰图
+    隔离与容器基础
+      namespace
+        PID、Mount
+        User、IPC、UTS、Cgroup
+      cgroups
+        CPU 配额
+        内存限制
+        I/O 控制
+        资源统计
+      容器本质
+        rootfs 与 OverlayFS
+        容器进程
+        OCI runtime
+      安全边界
+        capabilities
+        seccomp
+        LSM
+    可观测性与故障诊断
+      系统全局
+        uptime、top、free
+        vmstat、iostat、sar
+      进程级
+        ps、pidstat、lsof
+        strace、pstack
+      CPU 与内核
+        perf stat
+        perf record
+        eBPF
+      系统接口
+        procfs
+        sysfs
+        dmesg
+      排障闭环
+        定义现象
+        建立假设
+        收集证据
+        定位根因
+        验证与复盘
+    AI Infra 连接点
+      GPU 与 NPU 主机侧
+        PCIe 与 DMA
+        Pinned Memory
+        NUMA 亲和性
+        Host 到 Device 数据通路
+      分布式工作负载
+        多进程模型
+        共享内存
+      推理服务
+        文件描述符上限
+        内存与 page cache
+        CPU 与存储瓶颈
+      集群平台
+        容器资源限制
+        Kubernetes 节点
+        资源争用与隔离
