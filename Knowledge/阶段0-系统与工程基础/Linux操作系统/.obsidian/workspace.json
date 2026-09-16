@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识地图.md",
+                "file": "基础使用/Shell 与终端/Shell、终端与TTY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "知识地图"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7b6f2be50b9376ce",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dfc98c10bc3fa5bf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "Shell、终端与TTY"
             }
           }
         ]
@@ -99,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef9870686c2ce4a3",
@@ -207,6 +190,10 @@
   },
   "active": "604b1eaa1175c2ed",
   "lastOpenFiles": [
+    "知识地图.md",
+    "基础使用/Shell 与终端/Shell、终端与TTY.md",
+    "基础使用/Shell 与终端",
+    "基础使用",
     "知识地图.mmd",
     "欢迎.md"
   ]
