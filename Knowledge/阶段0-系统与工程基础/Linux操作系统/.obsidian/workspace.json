@@ -8,20 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "604b1eaa1175c2ed",
+            "id": "29e19572e710cffa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "9bac961cd30de76d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基础使用/Shell 与终端/Shell、终端与TTY.md",
+                "file": "基础使用/Shell 与终端/标准输入输出、重定向与管道.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shell、终端与TTY"
+              "title": "标准输入输出、重定向与管道"
+            }
+          },
+          {
+            "id": "bf3f24e0cdbcabb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "基础使用/Shell 与终端/主题预览（可灵活调整）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "主题预览（可灵活调整）"
+            }
+          },
+          {
+            "id": "3c6165dd9533dc77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "基础使用/Shell 与终端/Shell 如何解析一条命令.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shell 如何解析一条命令"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef9870686c2ce4a3",
@@ -188,8 +228,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "604b1eaa1175c2ed",
+  "active": "9bac961cd30de76d",
   "lastOpenFiles": [
+    "基础使用/Shell 与终端/主题预览（可灵活调整）.md",
+    "基础使用/Shell 与终端/标准输入输出、重定向与管道.md",
+    "基础使用/Shell 与终端/Shell 如何解析一条命令.md",
+    "基础使用/Shell 与终端/终端、Shell 与命令行.md",
+    "基础使用/Shell 与终端/路径与常用文件操作.md",
+    "基础使用/Shell 与终端/Shell 基本操作与帮助.md",
     "知识地图.md",
     "基础使用/Shell 与终端/Shell、终端与TTY.md",
     "基础使用/Shell 与终端",
