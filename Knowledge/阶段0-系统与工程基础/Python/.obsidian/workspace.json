@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "d64c5a1cab47f3a3",
+            "id": "57e176d982f7c576",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,45 +36,45 @@
             }
           },
           {
-            "id": "57e176d982f7c576",
+            "id": "a21b985c1b2f856a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python 基础语法/条件、循环与推导式/条件、循环与推导式.md",
+                "file": "Python 基础语法/常用标准库/常用标准库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "条件、循环与推导式"
+              "title": "常用标准库"
             }
           },
           {
-            "id": "a6be73efd9444713",
+            "id": "332b15b6b72bb68a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python 基础语法/条件、循环与推导式/列表、字典与集合推导式.md",
+                "file": "Python 基础语法/常用标准库/os 与运行环境.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "列表、字典与集合推导式"
+              "title": "os 与运行环境"
             }
           },
           {
-            "id": "fe150a8ccb87aec4",
+            "id": "65855b85d5b1af0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python 基础语法/条件、循环与推导式/循环与循环控制.md",
+                "file": "Python 基础语法/常用标准库/pathlib 路径操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "循环与循环控制"
+              "title": "pathlib 路径操作"
             }
           }
         ],
@@ -245,33 +245,43 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a6be73efd9444713",
+  "active": "332b15b6b72bb68a",
   "lastOpenFiles": [
+    "Python 基础语法/常用标准库/常用标准库.md",
+    "Python 基础语法/常用标准库/pathlib 路径操作.md",
+    "Python 基础语法/常用标准库/os 与运行环境.md",
+    "Python 基础语法/Python 基础语法.md",
+    "Python 基础语法/常用标准库",
+    "Python 基础语法/异常与文件/文本文件读写.md",
+    "Python 基础语法/异常与文件/异常与文件.md",
+    "Python 基础语法/异常与文件/with 语句与上下文管理器.md",
+    "Python 基础语法/异常与文件/异常流程与抛出.md",
+    "Python 基础语法/异常与文件/捕获异常.md",
+    "Python知识地图.md",
+    "Python 基础语法/异常与文件",
+    "Python 基础语法/模块与类/模块与类.md",
+    "Python 基础语法/模块与类/继承与方法重写.md",
+    "Python 基础语法/模块与类/类与对象.md",
+    "Python 基础语法/模块与类/模块与导入.md",
+    "Python 基础语法/函数与类型标注/参数、返回值与容器类型标注.md",
+    "Python 基础语法/函数与类型标注/函数与类型标注.md",
+    "Python 基础语法/模块与类",
+    "Python 基础语法/函数与类型标注/函数定义、参数与返回值.md",
     "Python 基础语法/条件、循环与推导式/条件、循环与推导式.md",
+    "Python 基础语法/函数与类型标注",
     "Python 基础语法/条件、循环与推导式/列表、字典与集合推导式.md",
     "Python 基础语法/条件、循环与推导式/循环与循环控制.md",
     "Python 基础语法/条件、循环与推导式/条件判断与布尔表达式.md",
-    "Python 基础语法/Python 基础语法.md",
     "Python 基础语法/值、变量与容器/值、变量与容器.md",
     "Python 基础语法/值、变量与容器/字典与集合.md",
     "Python 基础语法/条件、循环与推导式",
     "Python 基础语法/值、变量与容器/列表与元组.md",
     "Python 基础语法/值、变量与容器/变量、基本类型与运算.md",
     "Conda 环境管理/包管理与环境复现/查询可用版本与指定版本安装.md",
-    "Conda 环境管理/包管理与环境复现/导出并复现 Conda 环境.md",
-    "Python知识地图.md",
     "Python 基础语法/值、变量与容器",
     "Python 基础语法",
-    "Conda 环境管理/Conda 环境管理.md",
-    "Conda 环境管理/环境创建与切换/环境创建与切换.md",
-    "Conda 环境管理/包管理与环境复现/包管理与环境复现.md",
-    "Conda 环境管理/环境创建与切换/创建与切换 Conda 环境.md",
-    "Conda 环境管理/包管理与环境复现/更新与移除 Conda 包.md",
-    "Conda 环境管理/包管理与环境复现/查看与安装 Conda 包.md",
     "Conda 环境管理/包管理与环境复现",
-    "Conda 环境管理/环境创建与切换/在 Linux 上安装 Miniconda.md",
     "Conda 环境管理/环境创建与切换",
-    "Conda 环境管理",
-    "知识地图.md"
+    "Conda 环境管理"
   ]
 }

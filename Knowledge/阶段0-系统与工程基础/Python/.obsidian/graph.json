@@ -13,6 +13,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "path:\"Python 基础语法\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": false,
@@ -26,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 185,
   "scale": 1,
-  "close": false
+  "close": true
 }
