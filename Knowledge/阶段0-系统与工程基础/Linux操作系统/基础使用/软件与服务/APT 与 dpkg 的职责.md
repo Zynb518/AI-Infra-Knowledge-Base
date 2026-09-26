@@ -78,11 +78,44 @@ dpkg-query -W bash
 **代码**
 
 ```bash
-
+apt show coreutils
+dpkg-query -W coreutils
 ```
 
 **运行结果**
 
 ```text
+❯ apt show coreutils
+Package: coreutils
+Version: 9.4-3ubuntu6.3
+Priority: required
+Essential: yes
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Michael Stone <mstone@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7,111 kB
+Pre-Depends: libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.48), libc6 (>= 2.38), libgmp10 (>= 2:6.3.0+dfsg), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
+Breaks: usrmerge (<< 39)
+Homepage: http://gnu.org/software/coreutils
+Task: minimal, server-minimal
+Download-Size: 1,413 kB
+APT-Sources: http://mirrors.aliyun.com/ubuntu noble-updates/main amd64 Packages
+Description: GNU 核心工具包
+ 本软件包包含了基本的文件、shell 和文本操作工具，它们应当出现在每一个操作系统 之中。
+ .
+ 准确来说，本软件包包括以下工具： arch base64 basename cat chcon chgrp chmod chown chroot
+ cksum comm cp csplit cut date dd df dir dircolors dirname du echo env
+ expand expr factor false flock fmt fold groups head hostid id install join
+ link ln logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc
+ numfmt od paste pathchk pinky pr printenv printf ptx pwd readlink realpath
+ rm rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac
+ tail tee test timeout touch tr true truncate tsort tty uname unexpand uniq
+ unlink users vdir wc who whoami yes
+
+N: 有 2 条附加记录。请加上 ‘-a’ 参数来查看它们
+❯ dpkg-query -W coreutils
+coreutils	9.4-3ubuntu6.2
 
 ```
